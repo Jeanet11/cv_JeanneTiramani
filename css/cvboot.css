@@ -1,0 +1,129 @@
+/*@media all and (max-width: 768px) 
+{
+
+	.metier {
+
+		text-align: center;
+		font-size: 2em;
+		font-family: "Lobster", cursive;
+		color:#B2B2C0;
+		text-shadow: 8px 8px 10px   #161286;
+	}
+
+	img {
+		max-width: 20%;
+		height: auto;
+		border: solid 10px;
+	
+}
+}*/
+
+body {
+	color: white;
+	background-image: url(../images/image-fond1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-size: 1.6em;
+}
+
+img {
+	
+	align-items:  center;
+	border-radius: 100%;
+	max-width: 50%;
+	height: auto;
+	
+}
+
+
+aside {
+	background: url(../images/image-presentation1.jpg);
+	padding-bottom: 20px;
+	padding-top: 20px;
+	
+
+}
+
+
+.bio {
+	border: solid 3px yellow;
+	margin-top: 20px;
+}
+
+.metier {
+	
+	text-align: center;
+	font-size: 4em;
+	font-family: "Lobster", cursive;
+	color:#B2B2C0;
+	text-shadow: 8px 8px 10px   #161286;
+	
+}
+
+.titreCategorie {
+	font-style: italic;
+	color: #D777CA;
+	font-size: 1.3em;
+	font-family: 'Lemonada', cursive;
+	border-radius: 2%;
+	border-bottom: solid  #D777CA ;
+}
+
+.nom {
+	
+	font-size: 1.8em;
+	font-weight: bold;
+	font-family: 'Concert One', cursive;
+	text-align: center;
+	color: #E8CFE4;
+}
+
+a {	
+	justify-content: space-around;
+	height: 50%;
+	padding-top: 50px;
+
+}
+
+.liste {
+	list-style: none;
+}
+
+h1 {
+	line-height: 130px;
+}
+
+span{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.separateur {
+	border-right: solid 3px;
+}
+
+
+/* format mobile : photo seule en haut*/;
+@media all and (max-width: 768px) 
+{
+
+	.metier {
+
+		text-align: center;
+		font-size: 3em;
+		font-family: "Lobster", cursive;
+		color:#B2B2C0;
+		text-shadow: 8px 8px 10px   #161286;
+	}
+
+	img {
+		max-width: 15px;
+		height: auto;
+		border: solid 30px;
+	}
+
+	span {
+		color: yellow;
+	}
+}
