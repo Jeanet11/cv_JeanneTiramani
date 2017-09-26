@@ -1,22 +1,3 @@
-/*@media all and (max-width: 768px) 
-{
-
-	.metier {
-
-		text-align: center;
-		font-size: 2em;
-		font-family: "Lobster", cursive;
-		color:#B2B2C0;
-		text-shadow: 8px 8px 10px   #161286;
-	}
-
-	img {
-		max-width: 20%;
-		height: auto;
-		border: solid 10px;
-	
-}
-}*/
 
 body {
 	color: white;
@@ -38,18 +19,27 @@ img {
 
 
 aside {
-	background: url(../images/image-presentation1.jpg);
+	background-color: grey;
 	padding-bottom: 20px;
 	padding-top: 20px;
+	border-radius: 5%;
 	
 
 }
 
-
-.bio {
-	border: solid 3px yellow;
-	margin-top: 20px;
+.nom {
+	
+	font-size: 2em;
+	font-weight: bold;
+	font-family: 'Concert One', cursive;
+	text-align: center;
+	color: #E8CFE4;
 }
+
+.coord {
+	font-size: 1.4em;
+}
+
 
 .metier {
 	
@@ -70,19 +60,13 @@ aside {
 	border-bottom: solid  #D777CA ;
 }
 
-.nom {
-	
-	font-size: 1.8em;
-	font-weight: bold;
-	font-family: 'Concert One', cursive;
-	text-align: center;
-	color: #E8CFE4;
-}
+
 
 a {	
 	justify-content: space-around;
 	height: 50%;
 	padding-top: 50px;
+	color: #D777CA;
 
 }
 
@@ -104,7 +88,8 @@ span{
 }
 
 
-/* format mobile : photo seule en haut*/;
+/* format mobile */
+
 @media all and (max-width: 768px) 
 {
 
@@ -117,13 +102,10 @@ span{
 		text-shadow: 8px 8px 10px   #161286;
 	}
 
-	img {
-		max-width: 15px;
-		height: auto;
-		border: solid 30px;
-	}
+}
 
-	span {
-		color: yellow;
+@media only screen and (max-width: 320px) {
+	.metier { 
+		font-size: 2em; 
 	}
 }
